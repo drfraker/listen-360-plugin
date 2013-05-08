@@ -1,0 +1,33 @@
+.entry-content blockquote.review {
+    font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+    background: url(../images/quote.png) no-repeat 17px 21px;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 20px 20px 20px 60px;!important
+}
+
+.entry-content blockquote.review p:last-of-type {
+    margin-bottom: 0;
+}
+
+
+.review .comments {
+    font-weight: bold;
+    color: #666;
+}
+
+.entry-content blockquote.simple {
+    background: none;
+    border-left: 2px solid #ddd;
+    font-size: 13px;
+    margin: 0 0 15px 15px;
+    padding: 0 0 0 10px;
+    width: 80%;
+    color: #4a993e;
+}
+
+
+.review .date {
+    font-size: 12px;
+}
