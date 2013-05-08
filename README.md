@@ -9,4 +9,6 @@ With this plugin you will enter your api url that you get from your profile sett
 
 Install the plugin to your wordpress site, set up the plugin and enter the shortcode on any page you wish to show your reviews on.
 
+If you need help with install ... reach me on twitter.com  @dustin_fraker
+
 Have fun!
