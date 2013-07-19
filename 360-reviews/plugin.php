@@ -116,7 +116,7 @@ class L360Reviews {
 
 
     //GET PAGE FOR PAGINATION SYSTEM.
-    public function getPage()
+    public static function getPage()
     {
         //set page var if not available
         if(!isset($_GET['currentPage']))
