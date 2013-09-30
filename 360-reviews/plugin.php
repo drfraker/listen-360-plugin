@@ -133,7 +133,7 @@ class L360Reviews {
 
         //get the reviews based on pagination and shortcode settings.
         public function get_reviews($perPage) {
-        $pageNum = getPage();
+        $pageNum = $this->getPage();
 
         //build up url for request
         $pagedUrl = $this->url . "?per_page=$perPage" . "&page=$pageNum";
