@@ -1,7 +1,7 @@
 listen-360-plugin
 =================
 
-A wordpress plugin to get reviews from listen 360 reviews system.
+A wordpress plugin to get reviews from listen 360 reviews system. Minimum requirement php5.3+. This won't work on php 5.2 or older.
 
 Listen 360 is a service that sends out questionnaires on your behalf and collects the results in a format that is easy to track.
 
