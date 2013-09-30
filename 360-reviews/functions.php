@@ -38,7 +38,7 @@ function plugin_section_text() {
 function l360_url() {
     $options = get_option('plugin_options');
     echo "<input id='l360url' name='plugin_options[url]' size='150' type='text' value='{$options['url']}' /><br />
-    <p class=\"description\">Find this URL in your user profile at the <a href=\"app.listen360.com\">app.listen360.com</a> website  </p>";
+    <p class=\"description\">Find this URL in your user profile at the <a href=\"http://app.listen360.com\">http://app.listen360.com</a> website  </p>";
 }
 
 //set text input
