@@ -116,7 +116,7 @@ class L360Reviews {
 
 
     //GET PAGE FOR PAGINATION SYSTEM.
-    public static function getPage()
+    public function getPage()
     {
         //set page var if not available
         if(!isset($_GET['currentPage']))
@@ -133,7 +133,7 @@ class L360Reviews {
 
         //get the reviews based on pagination and shortcode settings.
         public function get_reviews($perPage) {
-        $pageNum = Static::getPage();
+        $pageNum = getPage();
 
         //build up url for request
         $pagedUrl = $this->url . "?per_page=$perPage" . "&page=$pageNum";
